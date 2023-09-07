@@ -1,8 +1,12 @@
 import { useState } from "react";
+import Head from 'next/head'
 export default function Home() {
   const [visible, setVisible] = useState(false);
   return (
     <>
+      <Head>
+      <meta name="google-site-verification" content="ukpf0_hN5N4IQLTrvLSH2xd9kaWmk6E_TYRkjjNTI64" />
+      </Head>
       <h1>Next - Lit - Lazy - Mutation</h1>
       <hr />
       <h3>On Click App visibility</h3>
